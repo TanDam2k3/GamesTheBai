@@ -5,7 +5,7 @@ function getCard(){
     for(var i = 0; i < arrays.length; i++){
         card.innerHTML += `
             <div class="card">
-                <img class="img-${arrays[i].id}-${arrays[i].choose}" src="/db/img/close.jpg" alt="" onmousedown="getImg(${arrays[i].id},'${arrays[i].choose}')">
+                <img class="img-${arrays[i].id}-${arrays[i].choose}" src="db/img/close.jpg" alt="" onmousedown="getImg(${arrays[i].id},'${arrays[i].choose}')">
             </div>
         `;
     }
