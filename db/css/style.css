@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+}
+
+/* Header */
+#header{
+    width: 100%;
+    position: relative;
+}
+#counterTime{
+    width: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    top: 20px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+#counterTime .progressTime{
+    width: 75%;
+    height: 10px;
+    background-color: rgb(17, 169, 17);
+}
+
+#counterTime .progressTime::-webkit-progress-value {
+    background-color: rgb(17, 169, 17);
+}
+
+#counterTime .progressTime::-moz-progress-bar {
+    background-color: rgb(17, 169, 17);
+}
+
+#counterTime .progressTime::-ms-fill {
+    background-color: rgb(17, 169, 17);
+}
+
+#counterTime .timeEnd,
+#counterTime .timePresent{
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* Content */
+#content{
+    background-image: url(/db/img/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+}
+#content .box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(54, 54, 244);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+/* Thông báo chiến thắng */
+#successGames{
+    display: none;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    color: red;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+#successGames .title-success{
+    height: 600px;
+    background-image: url(/db/img/Game\ Victory.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Thông báo thất bại */
+#failureGames{
+    display: none;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    color: red;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+#failureGames .title-failure{
+    height: 600px;
+    background-image: url(/db/img/Defeat\ Pop-up\ [gif].gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

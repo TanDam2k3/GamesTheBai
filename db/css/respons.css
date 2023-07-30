@@ -1,0 +1,141 @@
+@media screen and (min-width: 1280px){
+    /* Header */
+    #counterTime .timeEnd,
+    #counterTime .timePresent{
+        font-size: 19px;
+    }
+    /* Content */
+    #content .box .card{
+        width: 240px;
+        height: 170px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 180px;
+    }
+    .btn-primary{
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 1280px){
+    /* Header */
+    #counterTime .timeEnd,
+    #counterTime .timePresent{
+        font-size: 18px;
+    }
+    /* Content */
+    #content .box .card{
+        width: 200px;
+        height: 160px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 170px;
+    }
+    .btn-primary{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1024px){
+    /* Header */
+    #counterTime .timeEnd,
+    #counterTime .timePresent{
+        font-size: 17px;
+    }
+    /* Content */
+    #content .box .card{
+        width: 160px;
+        height: 160px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 160px;
+    }
+    .btn-primary{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 992px){
+    /* Header */
+    #counterTime .timeEnd,
+    #counterTime .timePresent{
+        font-size: 16px;
+    }
+    /* Content */
+    #content .box .card{
+        width: 160px;
+        height: 130px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 150px;
+    }
+    .btn-primary{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    /* Header */
+    #counterTime .timeEnd,
+    #counterTime .timePresent{
+        font-size: 15px;
+    }
+    /* Content */
+    #content .box .card{
+        width: 120px;
+        height: 100px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 140px;
+    }
+    .btn-primary{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 580px){
+    /* Header */
+    
+    /* Content */
+    #content .box .card{
+        width: 90px;
+        height: 80px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 135px;
+    }
+    .btn-primary{
+        font-size:21px;
+    }
+}
+@media screen and (max-width: 560px) {
+    /* Header */
+    
+    /* Content */
+    #content .box .card{
+        width: 80px;
+        height: 80px;
+        padding: 3px;
+    }
+
+    /* Start */
+    .btn{
+        width: 130px;
+    }
+    .btn-primary{
+        font-size: 18px;
+    }
+}
