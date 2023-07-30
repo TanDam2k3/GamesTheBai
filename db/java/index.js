@@ -6,7 +6,7 @@ var arr = [];
 var countImg = 10;
 function getImg(a, b){
     var image = document.querySelector(`.img-${a}-${b}`);
-    image.src = `/db/img/open${a}.jpg`;
+    image.src = `db/img/open${a}.jpg`;
     var imgData = {
         src: image.src,
         img: `.img-${a}-${b}`
@@ -41,8 +41,8 @@ function chooseTrue(){
 // Chọn 2 ảnh khác nhau
 function chooseFalse(){
     if(arr.length >= 2) {
-        document.querySelector(arr[0].img).src = '/db/img/close.jpg';
-        document.querySelector(arr[1].img).src = '/db/img/close.jpg';
+        document.querySelector(arr[0].img).src = 'db/img/close.jpg';
+        document.querySelector(arr[1].img).src = 'db/img/close.jpg';
         arr.splice(0, 2);
     }
 }
@@ -95,17 +95,17 @@ function showResult(){
 
 
 function run(){
-    // document.addEventListener("keydown", function (event){
-    //     if (event.ctrlKey){
-    //        event.preventDefault();
-    //     }
-    //     if(event.keyCode == 123){
-    //        event.preventDefault();
-    //     }
-    // });
-    // document.addEventListener('contextmenu',
-    //     event => event.preventDefault()
-    // );
+    document.addEventListener("keydown", function (event){
+        if (event.ctrlKey){
+           event.preventDefault();
+        }
+        if(event.keyCode == 123){
+           event.preventDefault();
+        }
+    });
+    document.addEventListener('contextmenu',
+        event => event.preventDefault()
+    );
     setInterval(timeStart, 1000);
     setInterval(showResult,1000);
 }
