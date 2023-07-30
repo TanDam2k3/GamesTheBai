@@ -59,7 +59,7 @@ img{
 
 /* Content */
 #content{
-    background-image: url(../img/background.gif);
+    background-image: url(../../db/img/background.gif);
     background-repeat: no-repeat;
     background-size: cover;
     padding:50px;
@@ -94,7 +94,7 @@ img{
 }
 #successGames .title-success{
     height: 600px;
-    background-image: url(../img/Game\ Victory.gif);
+    background-image: url(../../db/img/Victoty.gif);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -114,7 +114,7 @@ img{
 }
 #failureGames .title-failure{
     height: 600px;
-    background-image: url(../img/Defeat\ Pop-up\ [gif].gif);
+    background-image: url(../../db/img/Defeat.gif);
     background-size: contain;
     background-repeat: no-repeat;
 }
